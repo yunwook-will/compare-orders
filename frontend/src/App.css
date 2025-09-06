@@ -1,0 +1,41 @@
+.App {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1890ff;
+  margin-bottom: 30px;
+}
+
+.upload-area {
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.upload-area:hover {
+  border-color: #1890ff;
+}
+
+.comparison-result {
+  margin-top: 30px;
+}
+
+.difference-positive {
+  color: #ff4d4f;
+  font-weight: bold;
+}
+
+.difference-negative {
+  color: #1890ff;
+  font-weight: bold;
+}
+
+.difference-zero {
+  color: #52c41a;
+}
